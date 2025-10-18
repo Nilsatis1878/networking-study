@@ -1,113 +1,33 @@
-# ==============================
-#  GLOBAL / OS SETTINGS
-# ==============================
-
 # Windows system files
 Thumbs.db
 ehthumbs.db
 Desktop.ini
-$RECYCLE.BIN/
+.BIN/
 *.lnk
-
-# macOS (in case you sync with a Mac)
 .DS_Store
 
-# Temporary or hidden files
-*.tmp
-*.temp
-*.bak
-*.swp
-*.lock
-*.log
-
-# ==============================
-#  IDE / EDITOR FILES
-# ==============================
-
-# Visual Studio Code
+# VS Code
 .vscode/
 .history/
 *.code-workspace
 
-# JetBrains IDEs (if ever used)
-.idea/
-
-# ==============================
-#  NETWORKING LAB TOOLS
-# ==============================
-
-# Cisco Packet Tracer
+# Network labs
 *.pkt
 *.pka
-*.pkz
-
-# GNS3 / EVE-NG / VirtualBox / VMware
 *.gns3
-*.gns3project
-*.gns3a
-*.qcow2
 *.vdi
 *.vmdk
-*.vbox*
-*.vmx
-*.nvram
 *.iso
-*.img
-*.ovf
-*.ova
-
-# FortiGate backup configs
 *.conf
 *.cfg
 *.backup
 *.bak
 
-# ==============================
-#  CODE / SCRIPTS
-# ==============================
-
-# Python cache
+# Python / Node / PowerShell cache
 __pycache__/
 *.pyc
-*.pyo
-
-# Node.js (if you use small automation tools)
 node_modules/
-npm-debug.log
-yarn-error.log
-
-# PowerShell output files
 *.ps1xml
 *.psc1
 *.psd1
 *.psm1
-
-# ==============================
-#  DOCUMENTS / MISC
-# ==============================
-
-# Temporary Office / PDF files
-~$*.doc*
-~$*.xls*
-~$*.ppt*
-*.tmp.pdf
-
-# Compiled / export folders
-/dist/
-/build/
-/out/
-
-# ==============================
-#  LOCAL ENVIRONMENT
-# ==============================
-
-# Custom lab files, credentials, secrets
-*.key
-*.pem
-*.crt
-*.cer
-*.json
-*.env
-*.creds
-*.secrets
-*.passwords
